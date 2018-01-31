@@ -1,0 +1,166 @@
+/*GENERAL*/
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+	margin: 0 auto;
+	font-family:'Roboto', sans-serif;
+}
+header, footer, main, section, nav, aside, p{
+	display: block;
+}
+body{
+	margin:0 auto;
+}
+.entete{
+	width: 100%;
+	height: 90px;
+	background-color: #252525;
+	color: #fcfcfc;
+}
+.entete h1{
+	padding: 25px;
+}
+.footer{
+	width: 100%;
+	height: 70px;
+	background-color: #252525;
+	color: #fcfcfc;
+}
+.footer p{
+	padding: 15px;
+}
+table{
+	width: 350px;
+	padding: 10px;
+	border-collapse: collapse;
+}
+/*INDEX*/
+.index-mire{
+	margin: 20px 0px;
+}
+.index-form{
+	margin: 15px;
+	padding: 6px;
+}
+.index-btn{
+	background-color:#252525;
+	color:white;
+	border-radius: 2%;
+	padding: 10px 150px;
+	border:0;
+	cursor: pointer;
+}
+.index-btn:hover{
+	background-color:#4a4848;
+}
+.index-score{
+	margin: 30px 0px;
+}
+fieldset{
+	width: 400px;
+	padding: 10px;
+	text-align: center;
+}
+/*SCORE*/
+#introduction-score{
+	text-align: center;
+}
+.table-score{
+	margin-top: 15px;
+}
+.table-score td{
+	padding: 5px;
+	border: black solid 1px;
+}
+.table-score thead td{
+	background-color: grey;
+}
+.table-score tbody td{
+	background-color: #e0d9d9;
+}
+/*THEME*/
+.btn-theme{
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	background-color:#565656;
+	color:white;
+	border-radius: 4px;
+	padding: 10px 10px;
+	border:0;
+	cursor: pointer;
+}
+.btn-theme:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #565656;
+}
+.choix-theme{
+	height: 100vh;
+	position: relative;
+}
+.foot-theme{
+	position:absolute;
+	bottom:0;
+}
+.theme{
+	text-align: center;
+	margin-top: 40px;
+}
+/*PENDU*/
+.btn-pendu{
+	background-color:#252525;
+	color:white;
+	border-radius: 2%;
+	padding: 10px 90px;
+	border:0;
+	cursor: pointer;
+}
+.btn-pendu:hover{
+	background-color:#4a4848;
+}
+.try{
+	text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 25px;
+}
+.pendu{
+	padding: 15px 40px;
+}
+.pendu.regle-pendu{
+	background-color: #f1f0f0;
+}
+.regle-pendu p{
+	padding: 5px;
+}
+.btn-pendu{
+	background-color:#353535;
+	color:white;
+	border-radius: 4px;
+	padding: 10px 10px;
+	border:0;
+	cursor: pointer;
+	margin-left: 4px;
+	margin-top: 5px;
+}
+.btn-pendu:hover{
+	background-color: lightgrey;
+	color:black;
+}
+.btn-pendu:disabled,
+.btn-pendu[disabled]{
+	background-color: lightgrey;
+	color:black;
+	opacity: 0.6;
+}
+/*PERDU*/
+.perdu{
+	margin-top: 50px;
+	text-align: center;
+}
+/*GAGNE*/
+.gagne{
+	text-align: center;
+	margin-top: 50px;
+}
